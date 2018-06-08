@@ -1,0 +1,202 @@
+body {
+      margin: 0;
+      background: white;
+}
+
+header {
+        border-bottom: 2px solid #cccccc;
+}
+
+a {
+   text-decoration: none;
+   color: grey;
+}
+
+a:hover {
+         color: blue;
+}
+
+.nav-container {
+                display:flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin: auto;
+                width: 960px;
+                font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.brand {
+        width: 17%;
+        background: #4aaaa5;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+}
+
+.sidebar {
+          display: flex;
+          list-style-type: none;
+          color: grey;
+}
+
+li {
+    margin: 2px;
+    padding: 8px 3px 0 3px;   
+}
+
+/* Add a hover effect (blue shadow) */
+li:hover {
+          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+          border-radius: 5%;                   
+}
+
+#nav-detail {
+             border-left: 0.5px solid #cccccc;
+             border-right: 0.5px solid #cccccc;
+}
+/* End of NavBar */
+
+/* Beginning of Body Content */
+.background {
+             background-image: url("what-the-hex.png");
+             padding-top: 30px;
+             padding-bottom: 75px;
+}
+
+.body-container {
+               margin: auto;
+               padding: 20px;
+               width: 960px;
+               background: white;
+               font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+               line-height: 1.6;
+               border: 0.5px solid #cccccc;
+}
+
+.heading-1 {
+            color: #4aaaa5;
+            border-bottom: 2px solid #cccccc;
+}
+
+.picture-me p {
+             float: right;
+}
+
+.picture-me img {
+                 float: left;
+}
+
+.picture-me img {
+                 width: 160px;
+                 height: 140px;
+                 margin: 15px 15px 0 0;
+                 border: 0.5px solid #4aaaa5;
+                 padding: 5px;
+}
+
+footer {
+        background: #666666;
+        color: #777777;
+        text-align: center;
+        padding: 15px;
+        height: 20px;
+        border-top: 8px solid #4aaaa5;
+}
+
+/* Beginning of Portfolio page */
+.flex-portfolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+.pictures {
+        margin: 3%;
+        color: white;
+        width: 240px;
+        height: 220px;
+        background-size: cover;
+        position: relative;
+}
+
+.business {
+           background-image: url("business.jpg");
+}
+
+.photography {
+              background-image:  url("picture2.jpg");
+}
+
+.mobile {
+         background-image: url("mobile.jpg");
+}
+
+.desktop {
+          background-image: url("desktop.jpg");
+}
+
+.text_position {
+             position: absolute;
+             bottom: 5%;
+             background: rgba(74, 170, 165, 0.75);
+             font-weight: bold;
+             text-align: center;
+             width: 90%;
+             padding: 5%;
+}
+
+/* Contact Page Style */
+
+.contact-form {
+               margin: 15px 2px 0 0;
+}
+
+input,
+textarea {
+          margin-bottom: 10px;
+          width: 100%;
+}
+
+button {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 8px;
+        width: 100px;
+}
+
+button:hover {
+        box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
+        border-radius: 5%;                   
+}
+
+/* Beginning of Media Queries */
+@media screen and (max-width: 768px) {
+  
+  .nav-container,
+  .body-container {
+                   width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+  .brand {
+          width: 100%;
+  }
+  .nav-container {
+                  width: 100%;
+  }
+  .body-container {
+                   width: 66.67%;
+  }
+
+  .picture-me img {
+                   width: 100%;
+  }
+
+  .picture-me p:first-child {
+                             width: 100%
+  }
+}
+
