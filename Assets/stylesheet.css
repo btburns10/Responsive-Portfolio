@@ -121,7 +121,8 @@ footer {
 }
 
 .business {
-           background-image: url("business.jpg");
+           background-image: url("trivia-thumbnail.png");
+           background-size: cover;
 }
 
 .photography {
