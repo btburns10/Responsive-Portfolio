@@ -130,7 +130,10 @@ footer {
 }
 
 .mobile {
-         background-image: url("mobile.jpg");
+         background-image: url("mood-thumbnail.png");
+         background-size: 200px;
+         background-repeat: no-repeat;
+         background-position-x: 25px;
 }
 
 .desktop {
