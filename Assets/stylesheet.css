@@ -137,7 +137,9 @@ footer {
 }
 
 .desktop {
-          background-image: url("desktop.jpg");
+          background-image: url("train-thumbnail.png");
+          background-size: 235px;
+          background-repeat: no-repeat;
 }
 
 .text_position {
