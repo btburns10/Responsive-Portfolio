@@ -1,6 +1,6 @@
 body {
-      margin: 0;
-      background: white;
+        margin: 0;
+        background: white;
 }
 
 header {
@@ -140,6 +140,11 @@ footer {
           background-image: url("train-thumbnail.png");
           background-size: 235px;
           background-repeat: no-repeat;
+}
+
+.friend-finder {
+        background-image: url("jerseyshore-thumbnail.png");
+        background-repeat: no-repeat;
 }
 
 .text_position {
