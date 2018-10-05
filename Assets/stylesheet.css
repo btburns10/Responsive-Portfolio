@@ -147,6 +147,17 @@ footer {
         background-repeat: no-repeat;
 }
 
+.burger-app {
+        background-image: url("burger-app.jpg");
+        background-repeat: no-repeat;
+}
+
+.food-lovers {
+        background-image: url("food-lovers.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
 .text_position {
              position: absolute;
              bottom: 5%;
